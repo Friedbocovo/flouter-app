@@ -272,7 +272,7 @@ function App() {
       const ChevronIcon = showHowItWorks ? ChevronUp : ChevronDown;
 
       return (
-        <div className="mt-6 bg-[#1e1e1e] rounded-xl border border-slate-700 md:w-[945px]  ">
+        <div className="mt-6 bg-[#1e1e1e] rounded-xl border border-slate-700  ">
             <div 
               className="p-4 cursor-pointer flex justify-between items-center transition-all duration-200 hover:bg-slate-800 rounded-xl"
               onClick={() => setShowHowItWorks(!showHowItWorks)}
